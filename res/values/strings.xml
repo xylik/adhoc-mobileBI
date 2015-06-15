@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidStarReport</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ad_hoc">AdHocHome</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    
+	<!--     Main activity -->
+	<string name="main_btnAdHoc">AdHoc upiti</string>
+	<string name="main_btnBenchmark">Benchmark</string>
+	<string name="main_tstBenchmarkInfo">U izradi!</string>
+	
+	<!-- AdHoc -->
+	    <string-array name="adHoc_navTitles">
+	        <item>Attributes</item>
+	        <item>Query</item>
+	        <item>Result</item>
+	        <item>Settings</item>
+	    </string-array>
+	    
+	<!--     AdHoc_queryBuilder -->
+	<string name="queryBuilder_rdbOdbc">ODBC</string>
+	<string name="queryBuilder_rdbSQLite">SQLite</string>
+	<string name="queryBuilder_lblConnString">Tip konekcije:</string>
+	<string name="queryBuilder_btnExecute">Pokreni</string>
+	    
+	<!-- AdHoc_tabQuery -->
+	<string name="query_btnCancel">Odustani</string>
+	<string name="query_btnContinue">Nastavi</string>
+	<string name="query_sampleQuery"></string>
+	<string name="query_lblEditQuery">Uređivanje upita:</string>
+	
+	<!-- AdHoc_Result -->
+	<string name="result_btnPrevious">Prethodno</string>
+	<string name="result_btnNext">Sljedeće</string>
+	<string name="result_lblMetaInfo">Br. redaka: 0\nTrajanje: 0</string>
+	
+	<!-- AdHoc_tabSettings -->
+	<string name="settings_btnSave">Spremi promjene</string>
+	<string name="settings_sampleSettings">www.nesto.com?param=1</string>
+	<string name="settings_lblConnString">Konekcijski string:</string>
+	<string name="settings_txtRowsPerPage">Redaka po stranici:</string>
+
+
+</resources>
